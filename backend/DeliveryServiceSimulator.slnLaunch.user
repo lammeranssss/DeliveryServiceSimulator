@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "DeliveryService.API\\DeliveryService.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,573 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|solutionrelative:deliveryservice.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|solutionrelative:deliveryservice.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.api\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|solutionrelative:deliveryservice.api\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|solutionrelative:deliveryservice.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|solutionrelative:deliveryservice.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.application\\interfaces\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|solutionrelative:deliveryservice.application\\interfaces\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|solutionrelative:deliveryservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|solutionrelative:deliveryservice.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|solutionrelative:deliveryservice.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.infrastructure\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|solutionrelative:deliveryservice.infrastructure\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|solutionrelative:deliveryservice.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|solutionrelative:deliveryservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|solutionrelative:deliveryservice.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.infrastructure\\deliveryservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|solutionrelative:deliveryservice.infrastructure\\deliveryservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.domain\\deliveryservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|solutionrelative:deliveryservice.domain\\deliveryservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|solutionrelative:deliveryservice.domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.application\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|solutionrelative:deliveryservice.application\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|solutionrelative:deliveryservice.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.infrastructure\\migrations\\20250518103956_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|solutionrelative:deliveryservice.infrastructure\\migrations\\20250518103956_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.infrastructure\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|solutionrelative:deliveryservice.infrastructure\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|solutionrelative:deliveryservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|solutionrelative:deliveryservice.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|solutionrelative:deliveryservice.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.api\\deliveryservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{115B0B42-41FE-4FFD-8A6D-4A32E95CA7BF}|DeliveryService.API\\DeliveryService.API.csproj|solutionrelative:deliveryservice.api\\deliveryservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|solutionrelative:deliveryservice.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|solutionrelative:deliveryservice.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.domain\\entities\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|solutionrelative:deliveryservice.domain\\entities\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.application\\deliveryservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|solutionrelative:deliveryservice.application\\deliveryservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A524A5-DF5A-433E-BE1B-0CD29F5317BF}|DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj|solutionrelative:deliveryservice.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|solutionrelative:deliveryservice.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.domain\\enums\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|solutionrelative:deliveryservice.domain\\enums\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27919501-882E-4A15-84EA-09A4793CEBAF}|DeliveryService.Application\\DeliveryService.Application.csproj|solutionrelative:deliveryservice.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|c:\\\u0440\u0430\u0431\u043E\u0442\u0430\\dotnet\\deliveryservicesimulator\\backend\\deliveryservice.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91BDF4E1-1763-4A04-9620-1EDB3728C00F}|DeliveryService.Domain\\DeliveryService.Domain.csproj|solutionrelative:deliveryservice.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DeliveryService.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DeliveryService.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:05:58.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Infrastructure\\Services\\AuthService.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Services\\AuthService.cs",
+              "RelativeToolTip": "DeliveryService.Infrastructure\\Services\\AuthService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA+wCIAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:14:03.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DeliveryService.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DeliveryService.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:15:26.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Data\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Infrastructure\\Data\\UnitOfWork.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Data\\UnitOfWork.cs",
+              "RelativeToolTip": "DeliveryService.Infrastructure\\Data\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:37:10.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RatingsController.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Controllers\\RatingsController.cs",
+              "RelativeDocumentMoniker": "DeliveryService.API\\Controllers\\RatingsController.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Controllers\\RatingsController.cs",
+              "RelativeToolTip": "DeliveryService.API\\Controllers\\RatingsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:10:48.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "DeliveryService.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:12:35.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRatingRepository.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Interfaces\\IRatingRepository.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Application\\Interfaces\\IRatingRepository.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Interfaces\\IRatingRepository.cs",
+              "RelativeToolTip": "DeliveryService.Application\\Interfaces\\IRatingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:12:52.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\appsettings.json",
+              "RelativeDocumentMoniker": "DeliveryService.API\\appsettings.json",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\appsettings.json",
+              "RelativeToolTip": "DeliveryService.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-18T10:14:54.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "DeliveryService.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:35:42.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "DeliveryService.API\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "DeliveryService.API\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:09:52.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DeliveryService.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:14:50.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Program.cs",
+              "RelativeDocumentMoniker": "DeliveryService.API\\Program.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Program.cs",
+              "RelativeToolTip": "DeliveryService.API\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:13:13.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "DeliveryService.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:20:23.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeliveryService.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj",
+              "RelativeToolTip": "DeliveryService.Infrastructure\\DeliveryService.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-17T19:53:08.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeliveryService.Domain.csproj",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\DeliveryService.Domain.csproj",
+              "RelativeDocumentMoniker": "DeliveryService.Domain\\DeliveryService.Domain.csproj",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\DeliveryService.Domain.csproj",
+              "RelativeToolTip": "DeliveryService.Domain\\DeliveryService.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-17T19:49:22.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Domain\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "DeliveryService.Domain\\Enums\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:04:18.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Application\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "DeliveryService.Application\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:34:09.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "DeliveryService.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:59:04.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250518103956_InitialCreate.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Migrations\\20250518103956_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Infrastructure\\Migrations\\20250518103956_InitialCreate.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Migrations\\20250518103956_InitialCreate.cs",
+              "RelativeToolTip": "DeliveryService.Infrastructure\\Migrations\\20250518103956_InitialCreate.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:40:04.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RatingRepository.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Repositories\\RatingRepository.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Infrastructure\\Repositories\\RatingRepository.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Repositories\\RatingRepository.cs",
+              "RelativeToolTip": "DeliveryService.Infrastructure\\Repositories\\RatingRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:14:11.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DeliveryService.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DeliveryService.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-18T22:22:17.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Application\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "DeliveryService.Application\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:13:17.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Application\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "DeliveryService.Application\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:34:53.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "DeliveryService.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:59:25.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DeliveryService.API.csproj",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\DeliveryService.API.csproj",
+              "RelativeDocumentMoniker": "DeliveryService.API\\DeliveryService.API.csproj",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.API\\DeliveryService.API.csproj",
+              "RelativeToolTip": "DeliveryService.API\\DeliveryService.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-17T19:48:53.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Entities\\Rating.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Domain\\Entities\\Rating.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Entities\\Rating.cs",
+              "RelativeToolTip": "DeliveryService.Domain\\Entities\\Rating.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:01:18.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Courier.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Entities\\Courier.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Domain\\Entities\\Courier.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Entities\\Courier.cs",
+              "RelativeToolTip": "DeliveryService.Domain\\Entities\\Courier.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:00:15.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DeliveryService.Application.csproj",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\DeliveryService.Application.csproj",
+              "RelativeDocumentMoniker": "DeliveryService.Application\\DeliveryService.Application.csproj",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\DeliveryService.Application.csproj",
+              "RelativeToolTip": "DeliveryService.Application\\DeliveryService.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-17T19:49:18.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "DeliveryService.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:45:11.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "DeliveryService.Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:04:29.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "VehicleType.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Enums\\VehicleType.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Domain\\Enums\\VehicleType.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Enums\\VehicleType.cs",
+              "RelativeToolTip": "DeliveryService.Domain\\Enums\\VehicleType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:05:27.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Application\\Class1.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Application\\Class1.cs",
+              "RelativeToolTip": "DeliveryService.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:44:44.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "DeliveryService.Domain\\Class1.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0442\u0430\\dotnet\\DeliveryServiceSimulator\\backend\\DeliveryService.Domain\\Class1.cs",
+              "RelativeToolTip": "DeliveryService.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T18:14:59.514Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
