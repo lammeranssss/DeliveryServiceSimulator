@@ -28,3 +28,4 @@ C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.Applicat
 C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.Application\obj\Debug\net8.0\refint\DeliveryService.Application.dll
 C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.Application\obj\Debug\net8.0\DeliveryService.Application.pdb
 C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.Application\obj\Debug\net8.0\ref\DeliveryService.Application.dll
+C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.Application\obj\Debug\net8.0\DeliveryService.Application.sourcelink.json

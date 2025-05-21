@@ -349,3 +349,4 @@ C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.API\obj\
 C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.API\obj\Debug\net8.0\DeliveryService.API.pdb
 C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.API\obj\Debug\net8.0\DeliveryService.API.genruntimeconfig.cache
 C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.API\obj\Debug\net8.0\ref\DeliveryService.API.dll
+C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.API\obj\Debug\net8.0\DeliveryService.API.sourcelink.json

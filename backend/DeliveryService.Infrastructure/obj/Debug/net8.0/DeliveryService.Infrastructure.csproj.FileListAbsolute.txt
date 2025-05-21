@@ -36,3 +36,4 @@ C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.Infrastr
 C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.Infrastructure\obj\Debug\net8.0\DeliveryService.Infrastructure.pdb
 C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.Infrastructure\obj\Debug\net8.0\DeliveryService.Infrastructure.genruntimeconfig.cache
 C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.Infrastructure\obj\Debug\net8.0\ref\DeliveryService.Infrastructure.dll
+C:\Работа\dotnet\DeliveryServiceSimulator\backend\DeliveryService.Infrastructure\obj\Debug\net8.0\DeliveryService.Infrastructure.sourcelink.json
