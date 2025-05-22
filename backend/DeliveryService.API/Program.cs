@@ -36,8 +36,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 );
 
 // === Конфигурация JWT ===
-var jwtSettings = builder.Configuration.GetSection("Jwt"); // Читаем настройки из appsettings.json
-var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]!);   // Преобразуем ключ в байты
+var jwtSettings = builder.Configuration.GetSection("Jwt"); 
+var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]!);   
 
 // Настройка аутентификации
 builder.Services.AddAuthentication(options =>
@@ -65,6 +65,7 @@ builder.Services.AddAuthorization();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

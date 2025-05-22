@@ -22,17 +22,17 @@ public class AppDbContext : DbContext
         modelBuilder
             .Entity<Order>()
             .Property(o => o.Status)
-            .HasConversion<string>(); // "Pending", "InProgress", "Delivered"
+            .HasConversion<string>();
 
         modelBuilder
             .Entity<User>()
             .Property(u => u.Role)
-            .HasConversion<string>(); // "Admin", "Customer", "Courier"
+            .HasConversion<string>(); 
 
         modelBuilder
             .Entity<Courier>()
             .Property(c => c.Vehicle)
-            .HasConversion<string>(); // "Car", "Bike", "Foot"
+            .HasConversion<string>(); 
 
         // Настройка связей
         modelBuilder.Entity<Order>()

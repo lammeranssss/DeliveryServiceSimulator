@@ -6,21 +6,33 @@ namespace DeliveryService.API.Controllers;
 
 [ApiController]
 [Route("api/auth")]
-public class AuthController(IAuthService authService) : ControllerBase
+public class AuthController : ControllerBase
 {
+    private readonly IAuthService _authService;
+
+    public AuthController(IAuthService authService)
+    {
+        _authService = authService;
+    }
+
     [HttpPost("login")]
     public async Task<IActionResult> Login([FromBody] LoginRequest request)
     {
-        // 1. Проверяем логин/пароль
-        var user = await authService.AuthenticateAsync(request.Email, request.Password);
+        var user = await _authService.AuthenticateAsync(request.Email, request.Password);
         if (user == null)
             return Unauthorized("Неверный email или пароль");
 
-        // 2. Генерируем токен
-        var token = await authService.GenerateTokenAsync(user);
-        return Ok(new { Token = token }); // Возвращаем токен клиенту
+        var token = await _authService.GenerateTokenAsync(user);
+
+
+        var roleString = user.Role.ToString() ?? "Unknown";
+
+        return Ok(new
+        {
+            token,               
+            role = user.Role.ToString()  
+        });
     }
 
-    // DTO для запроса логина
     public record LoginRequest(string Email, string Password);
 }

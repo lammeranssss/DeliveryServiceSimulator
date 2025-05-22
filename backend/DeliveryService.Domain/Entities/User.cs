@@ -26,7 +26,7 @@ public class User
     public string PasswordHash { get; set; }
 
     [Required]
-    public UserRole Role { get; set; } // Используем enum вместо строки
+    public UserRole Role { get; set; } 
 
     // Навигационные свойства
     public List<Order> Orders { get; set; } = new();

@@ -21,7 +21,7 @@ public class OrdersController(IUnitOfWork unitOfWork) : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetOrderById(int id)  // Добавлен недостающий метод
+    public async Task<IActionResult> GetOrderById(int id)  
     {
         var order = await unitOfWork.Orders.GetByIdAsync(id);
         return order == null ? NotFound() : Ok(order);
@@ -53,7 +53,7 @@ public class OrdersController(IUnitOfWork unitOfWork) : ControllerBase
         if (order == null) return NotFound();
 
         order.Status = OrderStatus.InProgress;
-        order.CourierId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value); // Исправлена синтаксическая ошибка (не хватало закрывающей скобки)
+        order.CourierId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
 
         await unitOfWork.SaveChangesAsync();
         return NoContent();

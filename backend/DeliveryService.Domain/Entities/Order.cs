@@ -19,7 +19,7 @@ public class Order
     public DateTime? DeliveredAt { get; set; }
 
     [Required]
-    public OrderStatus Status { get; set; } = OrderStatus.Pending; // Enum вместо строки
+    public OrderStatus Status { get; set; } = OrderStatus.Pending; 
 
     // Внешние ключи
     [ForeignKey("Customer")]

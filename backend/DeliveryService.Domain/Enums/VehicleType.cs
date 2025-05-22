@@ -2,7 +2,7 @@
 
 public enum VehicleType
 {
-    Car,        // Автомобиль
-    Bike,       // Велосипед
-    Foot        // Пеший курьер
+    Car,       
+    Bike,      
+    Foot       
 }

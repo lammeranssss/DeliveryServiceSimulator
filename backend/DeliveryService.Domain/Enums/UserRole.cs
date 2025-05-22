@@ -2,7 +2,7 @@
 
 public enum UserRole
 {
-    Admin,      // Администратор
-    Customer,   // Клиент
-    Courier     // Курьер
+    Admin,     
+    Customer,   
+    Courier     
 }

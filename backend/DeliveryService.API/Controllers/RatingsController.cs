@@ -9,7 +9,7 @@ namespace DeliveryService.API.Controllers;
 
 [ApiController]
 [Route("api/ratings")]
-[Authorize(Roles = "Customer")] // Только клиенты могут оценивать
+[Authorize(Roles = "Customer")] 
 public class RatingsController(IUnitOfWork unitOfWork) : ControllerBase
 {
     [HttpPost]

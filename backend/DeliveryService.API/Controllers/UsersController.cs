@@ -9,7 +9,7 @@ namespace DeliveryService.API.Controllers;
 
 [ApiController]
 [Route("api/users")]
-[Authorize(Roles = "Admin")] // Только админ!
+[Authorize(Roles = "Admin")]
 public class UsersController(IUnitOfWork unitOfWork) : ControllerBase
 {
     [HttpGet]
@@ -34,7 +34,7 @@ public class UsersController(IUnitOfWork unitOfWork) : ControllerBase
             FirstName = request.FirstName,
             LastName = request.LastName,
             Email = request.Email,
-            PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password), // Хешируем пароль
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password), 
             Role = request.Role
         };
 

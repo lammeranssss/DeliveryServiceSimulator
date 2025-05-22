@@ -8,7 +8,7 @@ public class Courier
     public int Id { get; set; }
 
     [Required]
-    public VehicleType Vehicle { get; set; } // Enum вместо строки
+    public VehicleType Vehicle { get; set; } 
 
     [Required]
     public string Location { get; set; }

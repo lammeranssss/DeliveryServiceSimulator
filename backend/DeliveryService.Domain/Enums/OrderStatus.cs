@@ -2,7 +2,7 @@
 
 public enum OrderStatus
 {
-    Pending,    // Ожидает курьера
-    InProgress, // В процессе доставки
-    Delivered   // Доставлен
+    Pending,    
+    InProgress, 
+    Delivered   
 }
