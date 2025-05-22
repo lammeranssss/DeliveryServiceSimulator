@@ -35,7 +35,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
-// === Конфигурация JWT ===
+// Конфигурация JWT 
 var jwtSettings = builder.Configuration.GetSection("Jwt"); 
 var key = Encoding.ASCII.GetBytes(jwtSettings["Key"]!);   
 

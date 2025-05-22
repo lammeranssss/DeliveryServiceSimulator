@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import api from '../api/axios';
 
-// Функция для простого декодирования payload из JWT (без проверки подписи)
 function parseJwt(token) {
   try {
     return JSON.parse(atob(token.split('.')[1]));
@@ -20,10 +19,9 @@ export default function LoginPage() {
       console.log('Full response:', response);
       console.log('Response data:', response.data);
 
-      const token = response.data.token;  // маленькая буква
+      const token = response.data.token;  
       localStorage.setItem('token', token);
 
-      // Декодируем токен чтобы получить роль
       const decoded = parseJwt(token);
       console.log('Decoded token:', decoded);
 
@@ -32,7 +30,6 @@ export default function LoginPage() {
 
       localStorage.setItem('role', role);
 
-      // Перенаправляем по роли
       switch (role) {
         case 'Admin':
           window.location.href = '/admin';
